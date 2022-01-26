@@ -18,7 +18,7 @@ RUN apt-get -y install nodejs
 RUN npm install --global yarn
 RUN npm install --global @cloudflare/wrangler
 
-RUN curl -O https://raw.githubusercontent.com/libDrive/server/main/requirements.txt? && \
+RUN curl -O https://raw.githubusercontent.com/Nima3/server/main/requirements.txt?token=GHSAT0AAAAAABQ6OBS6TUY5XMAATXGFT47IYPRNUEQ? && \
     pip3 install -r requirements.txt --no-cache-dir
 
 ENV PATH="/usr/src/app/.local/bin:${PATH}"
